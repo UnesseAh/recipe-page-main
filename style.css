@@ -1,16 +1,10 @@
 body {
-  border-right-style: solid;
-  border-right-width: 0px;
-  margin-right: 50px;
-  padding-right: 10px;
-  margin-left: 50px;
-  border-top-style: solid;
-  border-top-width: 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
-.img img {
-  border-radius: 8%;
+
+img {
+  border-radius: 30px;
+  width: 100%;
 }
 
 .title1 {
