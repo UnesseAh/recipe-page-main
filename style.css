@@ -1,34 +1,35 @@
-body {
-  border-right-style: solid;
-  border-right-width: 0px;
-  margin-right: 50px;
-  padding-right: 10px;
-  margin-left: 50px;
-  border-top-style: solid;
-  border-top-width: 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
+@font-face {
+  font-family: "young-serif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
-.img img {
-    border-radius: 8%;
 
+@font-face {
+  font-family: "outfit";
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 50px;
+}
+
+img {
+  border-radius: 30px;
+  width: 100%;
 }
 
 .title1 {
-    color: hsl(332, 51%, 32%);
+  color: hsl(332, 51%, 32%);
 }
-.dv1{
-    background-color: hsl(330, 100%, 98%);
+.dv1 {
+  background-color: hsl(330, 100%, 98%);
 }
 
 .title2,
 .title3 {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
 }
 .oltitle3 ::marker {
-        color: hsl(14, 45%, 36%);
-
+  color: hsl(14, 45%, 36%);
 }
 .title4,
 .nmbone,
@@ -36,5 +37,9 @@ body {
 .Carbs,
 .Protein,
 .Fat {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
+}
+
+.test {
+  color: red;
 }
