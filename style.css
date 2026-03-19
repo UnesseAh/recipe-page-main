@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 50px;
+  margin: 50px;     
 }
 
 img {
@@ -17,26 +17,129 @@ img {
   width: 100%;
 }
 
+.title11 .title1 {
+  font-family: "young-serif";
+}
+
+.p-1 {
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+}
+.title1 {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "young-serif";
+
+}
+
+.ultitle1 {
+    list-style: none;
+    padding-left: 0;
+    }
+
+.li1::before {
+  content: "•"; 
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  display: inline-block; 
+  width: 30px;
+  margin-left: 30px;
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+}
+
+.ultitle1 {
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 20px;
+}
+
+.ultitle2 {
+  list-style: none;
+  padding: 0;
+  padding-left: 6px; 
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+}
+
+.li2 {
+  display: flex; 
+  align-items: flex-start; 
+  margin-bottom: 10px;
+  gap: 15px; 
+}
+
+.li2::before {
+  content: "•"; 
+  color: hsl(14, 45%, 36%);
+  font-family: "outfit";
+  font-weight: bold;
+  flex-shrink: 0;
+  width: 15px;
+
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+
+.dv1 {
+  background-color: hsl(330, 100%, 98%);
+  margin-top: 20Px;
+  margin: 0 40px;
+}
+
+.ol {
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+}
+
 .title1 {
   color: hsl(332, 51%, 32%);
 }
-.dv1 {
-  background-color: hsl(330, 100%, 98%);
-}
 
-.title2,
-.title3 {
-  color: hsl(14, 45%, 36%);
+.title2, .title3 {
+  color: hsl£(14, 45%, 36%);
 }
 .oltitle3 ::marker {
   color: hsl(14, 45%, 36%);
+  
 }
-.title4,
-.nmbone,
-.Calories,
-.Carbs,
-.Protein,
-.Fat {
+
+.title2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "young-serif";
+}
+
+.Thetable {
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    white-space: nowrap;
+}
+
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  font-family: "outfit";
+}
+
+.nutrition-row p {
+  margin: 0;
+  color: hsl(30, 10%, 34%);
+
+}
+
+.Calories, .Carbs, .Protein, .Fat {
+  color: hsl(14, 45%, 36%) !important; 
+  font-weight: bold;
+}
+
+.title4,.nmbone {
   color: hsl(14, 45%, 36%);
+  font-family: "outfit";
 }
+
 
